@@ -47,3 +47,31 @@ Através do comando `wc` é possível verificar que o arquivo final ficou com 31
 $ wc dados.txt 
   31041  245380 1577373 dados.txt
 ```
+## Rodando o programa kalkuli_vortoj.py
+
+Através do comando cat e um pipline, executamos o programa com o argumento do TOP 'x' que queremos filtrar: 
+
+```
+$ cat tekstoj/dados.txt | python kalkuli_vortoj.py 20
+17651	la
+7575	kaj
+7244	de
+4597	en
+3696	al
+3158	ne
+2780	estas
+2749	mi
+2708	li
+2499	ke
+1985	ĉi
+1761	por
+1681	sed
+1640	vi
+1530	ni
+1439	kun
+1321	estis
+1179	kiel
+1134	sur
+1111	pli
+```
+Essas são as 20 palavras mais usadas nos textos que utilizamos como base de nosso estudo, com a quantidade de vezes que elas aparecem.
