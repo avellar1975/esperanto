@@ -14,10 +14,6 @@ Conversão do '.pdf' para '.txt'. Use:
 
  `pdftotext arquivo.pdf novo-arquivo.txt`
 
-## Fonte
----
-http://www.dominiopublico.gov.br/: site que possui uma quantidade grande de livros em Esperanto no formato pdf.
-https://www.gutenberg.org/browse/languages/eo: site onde é possível baixar livros em Esperanto já em txt.
 
 ## Livros utilizados>:
 * Dua Libro de l' Lingvo Internacia (Autor: L. L. Zamenhof)
@@ -75,3 +71,9 @@ $ cat tekstoj/dados.txt | python kalkuli_vortoj.py 20
 1111	pli
 ```
 Essas são as 20 palavras mais usadas nos textos que utilizamos como base de nosso estudo, com a quantidade de vezes que elas aparecem.
+
+---
+### Fonte
+http://www.dominiopublico.gov.br/: site que possui uma quantidade grande de livros em Esperanto no formato pdf.
+https://www.gutenberg.org/browse/languages/eo: site onde é possível baixar livros em Esperanto já em txt.
+
